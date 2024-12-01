@@ -1,0 +1,109 @@
+html,
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    width: 50rem;
+    height: 25rem;
+    margin: auto;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    /* align-items: center;
+    justify-content: center;
+    box-shadow: -5px 5px 2px 0 #d8d7d7; */
+
+}
+
+section{
+    width: 30rem;
+    height: 25rem;
+    background-image: url("./Assets/bg-pattern-desktop.svg");
+    background-position: center;
+    background-size: cover;
+    padding:0 rem;
+
+}
+
+p{
+    color: #ddc7c9;
+}
+
+.hero-img{
+    /* height: fit-content; */
+    width: 20rem;
+    height: 25rem;
+}
+
+.text-container{
+    margin: 2rem auto;
+    width: 20rem;
+}
+
+span{
+    color: #bc9fa3;
+    font-weight: 300;
+}
+
+
+.logoImg{
+    width: 6rem;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-family: Josefin Sans;
+    font-weight: 600;
+    /* line-height: 2rem; */
+    margin-block: 0;
+    margin-top: 4rem;
+    letter-spacing:0.8rem;
+}
+
+p{
+    margin: 1rem 0;
+    font-family: Josefin Sans;
+    /* font-weight: 100; */
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.2rem;
+}
+
+a{
+    display: block;
+    height: 2rem;
+    width: 3.5rem;
+    background-image: linear-gradient(to right,#f4afb0,#ee9192);
+    border-radius: 15px;
+}
+
+input{
+    font-family:cursive;
+    /* font-weight: 100; */
+    font-weight: lighter;
+    font-size: 12px;
+    line-height: 1.2rem;
+    border: solid 1px #ce9797;
+    border-radius: 15px;
+    padding-left: 1rem;
+    color: #ce9797;
+    position: absolute;
+    left: 2px;
+}
+.arrow-logo{
+    /* width: 1rem;
+    height: 1rem;
+    margin: auto; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.input-button{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
