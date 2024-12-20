@@ -118,6 +118,8 @@ input{
     position: relative;
     margin-top: 2rem;
 }
-.input:focus{
-    border-color: #ce9797;
+
+input:active, input:focus{
+    border: solid 1px #ce9797;
+    outline: none;
 }
